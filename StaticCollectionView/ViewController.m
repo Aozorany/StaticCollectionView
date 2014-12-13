@@ -25,7 +25,7 @@
       //Section 1
       @{
           kAOZStaticCollectionViewSlotWidthKey: @1, kAOZStaticCollectionViewSlotHeightKey: @1,
-          kAOZStaticCollectionViewSlotRowsKey: @2, kAOZStaticCollectionViewSlotColumnsKey: @2,
+          kAOZStaticCollectionViewSlotColumnsKey: @2, kAOZStaticCollectionViewSlotRowsKey: @2,
           kAOZStaticCollectionViewSlotContentsArrayKey: @[
                   @{
                       kAOZStaticCollectionViewContentRectKey: [NSValue valueWithCGRect:CGRectMake(0, 0, 1, 2)],
@@ -42,7 +42,7 @@
       //Section 2
       @{
           kAOZStaticCollectionViewSlotWidthKey: @1, kAOZStaticCollectionViewSlotHeightKey: @1,
-          kAOZStaticCollectionViewSlotColumnsKey: @4, kAOZStaticCollectionViewSlotColumnsKey: @4,
+          kAOZStaticCollectionViewSlotColumnsKey: @4, kAOZStaticCollectionViewSlotRowsKey: @4,
           kAOZStaticCollectionViewSlotContentsArrayKey: @[
                   @{
                       kAOZStaticCollectionViewContentRectKey: [NSValue valueWithCGRect:CGRectMake(0, 0, 2, 2)],

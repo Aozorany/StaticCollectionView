@@ -110,7 +110,8 @@
         sectionOrigPoint.y += realSectionHeight;
         sectionIndex++;
     }
-    return CGSizeMake(collectionViewSize.width, sectionOrigPoint.y + _DEFAULT_SPACING);
+    CGSize contentSize = CGSizeMake(collectionViewSize.width, sectionOrigPoint.y + _DEFAULT_SPACING);
+    return contentSize;
 }
 
 - (NSArray *)layoutAttributesForElementsInRect:(CGRect)rect {
