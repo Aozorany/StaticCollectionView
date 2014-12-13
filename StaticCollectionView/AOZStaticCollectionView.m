@@ -13,6 +13,7 @@
 #pragma mark Lifecircle
 - (instancetype)init {
     AOZStaticCollectionViewLayout *collectionViewLayout = [[AOZStaticCollectionViewLayout alloc] init];
+    collectionViewLayout.scrollDirection = UICollectionViewScrollDirectionHorizontal;
     self = [super initWithFrame:CGRectZero collectionViewLayout:collectionViewLayout];
     if (self) {
         [self registerClass:[UICollectionViewCell class] forCellWithReuseIdentifier:@"C_X"];

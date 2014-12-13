@@ -10,4 +10,5 @@
 
 @interface AOZStaticCollectionViewLayout : UICollectionViewLayout
 @property (nonatomic, retain, setter=setContentsArray:) NSArray *contentsArray;
+@property (nonatomic, assign) UICollectionViewScrollDirection scrollDirection;
 @end
